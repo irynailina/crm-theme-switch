@@ -35,7 +35,7 @@ export default {
   },
   computed: {
     isLight: function () {
-      return this.lightMode ? 'test' : false
+      return this.lightMode ? 'dark' : 'light'
     }
   }
 }
